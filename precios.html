@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Nosotros</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+       
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./precios.html">Price</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link " href="./terminos.html" id="navbarDropdown" >
+                Terms
+              </a>
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contact</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <div class="jumbotron jumbotron-fluid text-white bg-primary">
+        <div class="container">
+            <h1 class="display-4 font-weight-bold" >
+                Colombia tour</h1>
+        </div>
+    </div>
+    <div class="container">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a href="#valoracion-pills" class="nav-link active" id="valoracion-pills-tab" data-toggle="pill"
+                    role="tab" aria-controls="valoracion-pills" aria-selected="true">Precios</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="valoracion-pills" role="tabpanel"
+                aria-labelledby="tarjetas-pills-tab">
+                <div class="table-responsive">
+                    <!-- falta una tabla que no esta en el codigo-->
+                </div>
+            </div>
+        
+        </div>
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">Lugares</th>
+                        <th scope="col">Playa</th>
+                        <th scope="col">Amazonas</th>
+                        <th scope="col">Nevados</th>
+                        <th scope="col">Eje cafetero</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">
+                            <span class="oi oi-star"></span>
+                        </th>
+                        <td>$ 300.000</td>
+                        <td>$ 400.000</td>
+                        <td>$ 800.000</td>
+                        <td>$ 500.000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="container">
+        <div class="d-flex flex-warp flex-row-reverse">
+            <div class="d-flex flex-column justify-content-between mi-card-hotel">
+                <h4>Plan Individual</h4>
+                <p>EL costo varia segun el destino desde $300.000 hasta $80.000</p>
+                <button class="btn btn-primary btn-sm">Reservar</button>
+            </div>
+            <div class="d-flex flex-column justify-content-between mi-card-hotel">
+                <h4>Plan Doble</h4>
+                <p>El plan para dos personas se hace un descuento del 5% del valor de total del costo.</p>
+                <button class="btn btn-primary btn-sm">Reservar</button>
+            </div>
+            <div class="d-flex flex-column justify-content-between mi-card-hotel">
+                <h4>Plan triple</h4>
+                <p>El plan para tres personas se hace un descuento del 8% del valor de total del costo.</p>
+                <button class="btn btn-primary btn-sm">Reservar</button>
+            </div>
+            <div class="d-flex flex-column justify-content-between mi-card-hotel">
+                <h4>Plan Cuarto</h4>
+                <p>El plan para cuatro personas se hace un descuento del 10% del valor de total del costo.</p>
+                <button class="btn btn-primary btn-sm">Reservar</button>
+            </div>
+            <div class="d-flex flex-column justify-content-between mi-card-hotel">
+                <h4>Plan Quinto</h4>
+                <p>El plan para cinco personas se hace un descuento del 15% del valor de total del costo.</p>
+                <button class="btn btn-primary btn-sm">Reservar</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <div class="row">
+            <div class="col-md-4 d-flex flex-column aling-items-start mb-2">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Youtube</a>
+                <a href="#">Instagram</a>
+            </div>
+            <div class="col-md-4 mb-2">
+                <address>
+                    <h3>Ubicación</h3>
+                    <p><span class="oi oi-map mi-footer-address-icon"></span>Cll 01 Av1 #9-12</p>
+                    <p><span class="oi oi-phone mi-footer-address-icon"></span>+57 30043432524</p>
+                    <p><span class="oi oi-envelope-closed mi-footer-address-icon"></span>tourcolombia@gmail.co.com
+                    </p>
+                </address>
+            </div>
+            <div class="col-md-4 d-flex flex-column  mb-2">
+                <a href="./contacto.html">Nosotros</a>
+                <a href="./precios.html">Precios</a>
+                <a href="./terminos.html">Terminos y condiciones</a>
+                <a href="./contacto.html">Contacto</a>
+            </div>
+        </div>
+    </footer>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
